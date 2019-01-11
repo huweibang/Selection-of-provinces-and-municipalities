@@ -1,0 +1,85 @@
+//颜色值
+$te5:#5e5e5e;
+$t8:#888888;
+
+
+
+//宽高
+@mixin wh($w,$h){
+    width: $w;
+    height: $h;
+}
+
+//absolute 定位
+@mixin absolute($l,$t,$index){
+    position: absolute;
+    left: $l;
+    top: $t;
+    z-index:$index
+}
+
+//fixed 固定定位
+@mixin fixed($l,$t,$index){
+    position: fixed;
+    left: $l;
+    top: $t;
+    z-index:$index;
+}
+
+//margin
+@mixin margin($t,$r,$b,$l){
+    margin: $t $r $b $l;
+}
+
+//padding
+@mixin padding($t,$r,$b,$l){
+    padding: $t $r $b $l;
+}
+
+//字体大小
+@mixin fontSize($size){
+    font-size:$size;
+}
+@mixin borderRadius($size){
+    border-radius: $size;
+}
+
+//after
+@mixin after($w,$h,$color){
+    content: '';
+    width: $w;
+    height: $h;
+    background:$color;
+    position: absolute;
+}
+
+//before
+@mixin before($w,$h,$color){
+    content: '';
+    width: $w;
+    height: $h;
+    background:$color;
+    position: absolute;
+}
+
+//文字省略
+@mixin omit($num){
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $num;
+    -webkit-box-orient: vertical;
+}
+
+//圆角
+@mixin borderRadius($size){
+    border-radius: $size;
+}
+
+@mixin flex{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex: 1;
+}
