@@ -6,3 +6,6 @@
 2、npm run dev
 
 因为是自己写的，写的时候并没有太过考虑适用性，所以有兴趣的可以下载后自行改动
+
+![image](https://github.com/huweibang/Selection-of-provinces-and-municipalities/blob/master/screenshot/index.png)
+![image](https://github.com/huweibang/Selection-of-provinces-and-municipalities/blob/master/screenshot/chose.png)
