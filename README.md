@@ -1,21 +1,8 @@
-# whatshopconsuners
+这是基于vue的仿淘宝的选择省市区组件(移动端)
 
-> A Vue.js project
+下载后，安装依赖包，直接运行即可
 
-## Build Setup
+1、npm install
+2、npm run dev
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+因为是自己写的，写的时候并没有太过考虑适用性，所以有兴趣的可以下载后自行改动
